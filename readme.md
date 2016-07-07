@@ -34,7 +34,7 @@ The `starter-code` folder contains an Android project with the following:
 The three screenshots below show each sort being used on the list.
 
 <p align="center">
-  <img src="./Screen%20Shot%202016-07-07%20at%2011.55.08%20AM.png" width="200">
+  <img src="./screenshots/screen01.png" width="200">
 </p>
 
 ## Additional Resources
