@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListExample</string>
+
+    <string name="sort_by">Sort By</string>
+    <string name="button_space">Space</string>
+    <string name="button_word">Word</string>
+    <string name="button_genre">Genre</string>
+</resources>
