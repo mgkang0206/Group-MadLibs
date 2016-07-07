@@ -18,7 +18,7 @@ In this lab, you will be building a ListView that shows your collection of MadLi
 - Program should function as the previous lab when a mablib is chosen
 
 **Bonus:**
-- Allow madlibs to be added to the listview
+- Allow new madlibs to be added to the listview
 - Make the computer read the madlib aloud when a button is clicked
 - Make the computer's voice customizeable so the user can listen to his/her madlib spoken in different ways
 
