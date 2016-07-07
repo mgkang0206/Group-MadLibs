@@ -1,10 +1,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="50dp" android:orientation="horizontal">
 
-    <TextView android:text="1" android:gravity="center" android:id="@+id/numWords" android:layout_width="0dp"
+    <TextView android:text="1" android:gravity="center" android:id="@+id/FIELD1" android:layout_width="0dp"
         android:layout_height="match_parent" android:layout_weight="1" />
-    <TextView android:text="2" android:gravity="center" android:textAlignment="center" android:id="@+id/genre" android:layout_width="0dp"
+    <TextView android:text="2" android:gravity="center" android:textAlignment="center" android:id="@+id/FIELD2" android:layout_width="0dp"
         android:layout_height="match_parent" android:layout_weight="1" />
-    <TextView android:text="3" android:gravity="center" android:textAlignment="center" android:id="@+id/numSpaces" android:layout_width="0dp"
+    <TextView android:text="3" android:gravity="center" android:textAlignment="center" android:id="@+id/FIELD3" android:layout_width="0dp"
         android:layout_height="match_parent" android:layout_weight="1" />
 </LinearLayout>

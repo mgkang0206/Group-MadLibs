@@ -19,17 +19,23 @@
             android:text="@string/button_word"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="sortByWords"
+            android:id="@+id/header1" />
         <Button
             android:text="@string/button_genre"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="sortByGenre"
+            android:id="@+id/header2"/>
         <Button
             android:text="@string/button_space"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="sortBySpaces"
+            android:id="@+id/header3"/>
     </LinearLayout>
 
     <ListView android:id="@+id/mainList" android:layout_width="match_parent"

@@ -1,8 +1,7 @@
 package com.genassembly.dotdashdot.listexample;
 
-/**
- * Created by Mauve3 on 7/7/16.
- */
+import java.util.Collections;
+
 public class MadLibs {
     public int getWords() {
         return words;
