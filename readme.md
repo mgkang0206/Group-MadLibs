@@ -26,7 +26,7 @@ In this lab, you will be building a ListView that shows your collection of MadLi
 
 The `starter-code` folder contains an Android project with the following:
 
-- A completed Book.java class
+- A completed sample app
 - An example of how to use a custom comparator in the ExampleComparator.java file
 
 #### Deliverable
@@ -34,9 +34,7 @@ The `starter-code` folder contains an Android project with the following:
 The three screenshots below show each sort being used on the list.
 
 <p align="center">
-  <img src="./screenshots/screen1.png" width="200">
-  <img src="./screenshots/screen2.png" width="200">
-  <img src="./screenshots/screen3.png" width="200">
+  <img src="./Screen%20Shot%202016-07-07%20at%2011.55.08%20AM.png" width="200">
 </p>
 
 ## Additional Resources
