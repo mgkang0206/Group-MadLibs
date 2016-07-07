@@ -7,15 +7,15 @@
 
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
 |---|---|---|---|---|
-| Make 3 or more madlibs to add to the madlib from the previous lab | | | | n/a |
-| Make a ListView display sorted madlibs | | | | n/a |
-| Show genre, number of words, and choosable spaces for each list item | | | | n/a |
-| On launch, the book shelf must be sorted by genre | | |  | n/a |
-| Allow the user to sort by genre, number of words, or choosable spaces | | | | n/a |
-| Program should function as the previous lab when a mablib is chosen | | | | n/a |
-| **Bonus**: Allow madlibs to be added to the listview | n/a | n/a | n/a |   |
-| **Bonus**: Make the computer read the madlib aloud when a button is clicked | n/a | n/a | n/a |   |
-| **Bonus**: Make the computer's voice customizeable so the user can listen to his/her madlib spoken in different ways| n/a | n/a | n/a |   |
+| Make 3 or more madlibs to add to the madlib from the previous lab | | | | |
+| Make a ListView display sorted madlibs | | | | |
+| Show genre, number of words, and choosable spaces for each list item | | | | |
+| On launch, the book shelf must be sorted by genre | | |  | |
+| Allow the user to sort by genre, number of words, or choosable spaces | | | | |
+| Program should function as the previous lab when a mablib is chosen | | | | |
+| **Bonus**: Allow madlibs to be added to the listview | | | |   |
+| **Bonus**: Make the computer read the madlib aloud when a button is clicked | | | | |
+| **Bonus**: Make the computer's voice customizeable so the user can listen to his/her madlib spoken in different ways| | | | |
 
 
 Notes:
