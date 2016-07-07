@@ -7,13 +7,15 @@
 
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
 |---|---|---|---|---|
-| Make a ListView display sorted books | | | | n/a |
-| Show title, author, and year for each list item (first text should be the item being sorted) | | | | n/a |
-| On launch, the book shelf must be sorted by title | | | | n/a |
-| Allow the user to sort by title, year, or author | | |  | n/a |
-| Custom comparators must be used to resort based on the currently selected sort | | | | n/a |
-| **Bonus**: Add additional book information to be displayed | n/a | n/a | n/a |   |
-| **Bonus**: Allow the user to sort by the new information| n/a | n/a | n/a |   |
+| Make 3 or more madlibs to add to the madlib from the previous lab | | | | |
+| Make a ListView display sorted madlibs | | | | |
+| Show genre, number of words, and choosable spaces for each list item | | | | |
+| On launch, the book shelf must be sorted by genre | | |  | |
+| Allow the user to sort by genre, number of words, or choosable spaces | | | | |
+| Program should function as the previous lab when a mablib is chosen | | | | |
+| **Bonus**: Allow madlibs to be added to the listview | | | |   |
+| **Bonus**: Make the computer read the madlib aloud when a button is clicked | | | | |
+| **Bonus**: Make the computer's voice customizeable so the user can listen to his/her madlib spoken in different ways| | | | |
 
 
 Notes:
@@ -23,6 +25,6 @@ Notes:
 ---
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **10**  points on this project.
+Based on the requirements, you can earn a maximum of  **12**  points on this project.
 
 #### Your total score is: **#**

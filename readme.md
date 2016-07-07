@@ -1,24 +1,26 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) ListViews and ListAdapters - Bookshelf
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) ListViews and ListAdapters - MadLibs Android pt. 2
 
 ## Introduction
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-In this lab, you will be building a ListView that shows your collection of books. The activity will have buttons to sort the books by title, year, or author. Each sort will have a different layout for the list item, making the sorted category first on the list item.
+In this lab, you will be building a ListView that shows your collection of MadLibs from the last lab. The activity will have buttons to sort the madlibs by genre, number of words, and number of choosable spaces. Each sort will have a different layout for the list item, making the sorted category first on the list item.
 
 ## Exercise
 
 #### Requirements
 
-- Make a ListView display sorted books
-- Show title, author, and year for each list item (first text should be the item being sorted)
-- On launch, the book shelf must be sorted by title
-- Allow the user to sort by title, year, or author
-- Custom comparators must be used to resort based on the currently selected sort
+- Make 3 or more madlibs to add to the madlib from the previous lab (so minimum of 4 in total)
+- Make a ListView display sorted madlibs
+- Show genre, number of words, and choosable spaces for each list item
+- On launch, the book shelf must be sorted by genre
+- Allow the user to sort by genre, number of words, or choosable spaces
+- Program should function as the previous lab when a mablib is chosen
 
 **Bonus:**
-- Add additional book information to be displayed
-- Allow the user to sort by the new information
+- Allow madlibs to be added to the listview
+- Make the computer read the madlib aloud when a button is clicked
+- Make the computer's voice customizeable so the user can listen to his/her madlib spoken in different ways
 
 #### Starter code
 
