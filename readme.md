@@ -31,7 +31,7 @@ The `starter-code` folder contains an Android project with the following:
 
 #### Deliverable
 
-The three screenshots below show each sort being used on the list.
+Here's a screenshot for you. When the app loads, it should look like this
 
 <p align="center">
   <img src="./screenshots/screen01.png" width="200">
