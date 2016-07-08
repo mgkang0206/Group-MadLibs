@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"  tools:context=".MainActivity"
     android:id="@+id/header" android:orientation="vertical">
-    
-    <TextView
-        android:text="@string/sort_by"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:gravity="center"
-        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/button_space"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="sortBySpaces"
+        android:id="@+id/buttonIngestMadLib"/>
 
     <LinearLayout
         android:orientation="horizontal"

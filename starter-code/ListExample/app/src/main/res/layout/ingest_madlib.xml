@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text=""
-        android:id="@+id/textView"
+        android:id="@+id/textViewMadLibConstruction"
         android:layout_gravity="center_horizontal" />
 
     <LinearLayout
@@ -27,9 +27,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add Text to Story"
-            android:id="@+id/button"
+            android:id="@+id/buttonAddToMadLib"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="@dimen/view_top_spacer"/>
+            android:layout_marginTop="@dimen/view_top_spacer"
+            android:onClick="addMadLibText"/>
     </LinearLayout>
 
     <LinearLayout
