@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="co.ga.madlibs.MainActivity" >
+    android:layout_height="match_parent" >
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
         <LinearLayout android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editAdjective1"
                 android:hint="Adjective"
                 android:layout_marginTop="20dp"
-                android:layout_margin="5dp"
-                android:background="@drawable/mybutton"/>
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/grey"/>
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editAdjective2"
                 android:hint="Adjective"
-                android:background="@drawable/myedittext"
-                android:layout_margin="5dp" />
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/grey"/>
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editNoun1"
                 android:hint="Noun"
-                android:background="@drawable/myedittext"
-                android:layout_margin="5dp" />
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/grey"/>
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editNoun2"
                 android:hint="Noun"
-                android:background="@drawable/myedittext"
-                android:layout_margin="5dp" />
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/grey"/>
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editAnimal"
                 android:hint="Animal"
-                android:background="@drawable/myedittext"
-                android:layout_margin="5dp" />
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/grey"/>
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/editGame"
                 android:hint="Game"
-                android:background="@drawable/myedittext"
-                android:layout_margin="5dp" />
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/grey"/>
 
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:text="Mad Lib It"
-                android:id="@+id/setIntentResult"
-                android:background="@drawable/mybutton"
-                android:layout_margin="5dp" />
         </LinearLayout>
     </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make the magic happen"
+        android:id="@+id/setIntentResult"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccent"/>
+
 </FrameLayout>
