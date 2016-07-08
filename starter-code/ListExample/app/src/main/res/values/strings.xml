@@ -15,4 +15,11 @@
     <string name="SORT_BY_WORDS">Words</string>
     <string name="SORT_BY_GENRE">Genre</string>
     <string name="SORT_BY_SPACES">Spaces</string>
+
+    <string name="ADJECTIVE">**adjective**</string>
+    <string name="NOUN">**noun**</string>
+    <string name="VERB">**verb**</string>
+    <string name="NAME">**name**</string>
+    <string name="ANIMAL">**animal**</string>
+    <string name="GAME">**game**</string>
 </resources>

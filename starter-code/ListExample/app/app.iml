@@ -104,6 +104,9 @@
     <orderEntry type="library" exported="" name="appcompat-v7-23.2.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" exported="" name="android-android-23" level="project" />
+=======
+>>>>>>> 286f32329672a7bf30177ddf3954f8472271c374
   </component>
 </module>
