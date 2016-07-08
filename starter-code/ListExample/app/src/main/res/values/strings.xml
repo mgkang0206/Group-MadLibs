@@ -9,8 +9,8 @@
     </string>
 
     <string name="sort_by">Sort By</string>
-    <string name="button_space">Space</string>
-    <string name="button_word">Word</string>
+    <string name="button_space">Spaces</string>
+    <string name="button_word">Words</string>
     <string name="button_genre">Genre</string>
     <string name="SORT_BY_WORDS">Words</string>
     <string name="SORT_BY_GENRE">Genre</string>

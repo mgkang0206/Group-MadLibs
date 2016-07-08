@@ -28,7 +28,7 @@ public class EnterMadLibInfo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.enter_mad_lib_info);
 
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
@@ -46,7 +46,7 @@ public class EnterMadLibInfo extends AppCompatActivity {
         editGame = (EditText) findViewById(R.id.editGame);
         setIntentResult = (Button) findViewById(R.id.setIntentResult);
         final EditText[] editRefs = {editAdjective2, editAdjective1, editNoun1, editNoun2, editAnimal, editGame};
-
+//
         for (int i = 0; i < editRefs.length; i++) {
             editRefs[i].setHintTextColor(Color.WHITE);
         }
@@ -99,7 +99,5 @@ public class EnterMadLibInfo extends AppCompatActivity {
         return true;
     }
 
-//    public void clear(EditText v) {
-//        v.setText("");
-//    }
+
 }

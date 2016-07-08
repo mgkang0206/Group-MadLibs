@@ -1,6 +1,7 @@
 package com.genassembly.dotdashdot.listexample;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,12 +16,14 @@ public class SimpleAdapter extends BaseAdapter {
     private final LayoutInflater inflater;
     private final ArrayList<MadLibs> libs;
     private int sortBy;
+    private final Context context;
 
     public SimpleAdapter(Context context, ArrayList<MadLibs> libs) {
         //super();
         inflater = LayoutInflater.from(context);
         this.libs = libs;
         this.sortBy = R.string.SORT_BY_WORDS;
+        this.context = context;
     }
 
     public void setSortBy(int sortBy) {
@@ -43,7 +46,7 @@ public class SimpleAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View child, ViewGroup parent) {
+    public View getView(final int position, View child, ViewGroup parent) {
 
         Log.d("Postion: " , "" + position);
 
@@ -76,6 +79,14 @@ if (this.sortBy == R.string.SORT_BY_WORDS) {
         genre.setText(String.valueOf(libs.get(position).getGenre()));
         spaces.setText(String.valueOf(libs.get(position).getSpaces()));
 
+        v.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("Adapter", "Clicked " + position);
+                Intent intent = new Intent(context.getApplicationContext(), EnterMadLibInfo.class);
+                context.startActivity(intent);
+            }
+        });
 
 
         return v;
