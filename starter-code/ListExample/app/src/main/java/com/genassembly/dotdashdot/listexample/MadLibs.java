@@ -10,8 +10,11 @@ public class MadLibs {
     private String genre;
     private ArrayList<String> madLib;
 
+
+
     public MadLibs(String genre, int words, int spaces){
         this.genre = genre;
+
         this.words = words;
         this.spaces = spaces;
     }
@@ -22,6 +25,7 @@ public class MadLibs {
         this.spaces = this.getSpaces();
 
     }
+    
     public int getWords() {
         return words;
     }
