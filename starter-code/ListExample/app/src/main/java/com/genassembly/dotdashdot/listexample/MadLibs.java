@@ -25,7 +25,7 @@ public class MadLibs {
         this.spaces = this.getSpaces();
 
     }
-    
+
     public int getWords() {
         return words;
     }
